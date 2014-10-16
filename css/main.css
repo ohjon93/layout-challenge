@@ -1,0 +1,166 @@
+/*Font*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+	font-family: "Lato", "Helvetica Neue", "sans-serif";
+	font-size: 16px;
+	font-weight: 300;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+main {
+	background-image: url("../img/ricepaper_v3.png");
+	opacity: 0.9;
+}
+
+header {
+	font-family: "Raleway", "Helvetica Neue", "sans-serif";
+	font-weight: 300;
+}
+
+@media (min-width: 992px) {
+	body {
+		background-image: url("../img/background.jpg");
+		font-size: 18px;
+	}
+	
+	main, .container-fluid, nav{
+		margin: 20px 20px 20px 30%;
+	}
+	
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
+
+footer {
+	padding: 1em 1em 1em 0em;
+	background-color: #FC892F;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
+
+footer p:first-child{
+	font-style: italic;
+}
+
+dt {
+	color:black;
+	font-weight: bold;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	font-weight: 400;
+	margin: 0em 0em 1em 1em;
+}	
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display:inline-block;
+	list-style-type: none;
+	margin-right: 1em;
+}
+
+a:link, a:visited {
+	color: #0000AA;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0000EE;
+}
+
+nav a:link {
+	color: #5555EE;
+}
+
+nav a:hover, a:focus {
+	color: #0000EE;
+}
+
+h2, h3 {
+	font-family: "Raleway", "Helvetica Neue", "sans-serif"; 
+	color: #505050;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+.pageheader {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #EA4A00;
+	color: #FFFFFF;
+}
+
+.pageheader h1 {
+	font-family: "Raleway", "Helvetica Neue", "sans-serif";
+	font-size: 300%;
+	margin: 0;
+	font-weight: 300;	
+}
+
+@media (max-width: 991px) {
+	.tagline {
+		display: none;
+	}
+}
+
+.tagline {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+}
+
+.info, .aboutus {
+	padding: 1em;
+}
+
+.info h2:first-child {
+	margin-top: 0;
+}
+
+.info h2 {
+	margin: 0;
+}
+
+.menu {
+	padding: 1em;
+	background-color: rgba(207, 205, 144, 0.5);
+}
+
+.menu h2:first-child {
+	margin: 0 0 0 0.5em;
+}
+
+.aboutus h2:first-child {
+	margin: 0;
+}
+
+.container-fluid {
+	margin-top: 0;
+	margin-botoom: 0;
+}
+
+
