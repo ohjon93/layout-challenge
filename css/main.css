@@ -6,8 +6,6 @@ body {
 	font-family: "Lato", "Helvetica Neue", "sans-serif";
 	font-size: 16px;
 	font-weight: 300;
-	background-size: 100% 100%;
-	background-attachment: fixed;
 }
 
 main {
@@ -23,10 +21,12 @@ header {
 @media (min-width: 992px) {
 	body {
 		background-image: url("../img/background.jpg");
+		background-size: 100% 100%;
+		background-attachment: fixed;
 		font-size: 18px;
 	}
 	
-	main, .container-fluid, nav{
+	main, nav{
 		margin: 20px 20px 20px 30%;
 	}
 	
@@ -158,7 +158,7 @@ h3 {
 	margin: 0;
 }
 
-.container-fluid {
+.col-md-4 {
 	margin-top: 0;
 	margin-botoom: 0;
 }
